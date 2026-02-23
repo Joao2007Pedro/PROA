@@ -1,0 +1,50 @@
+    #camada1 {
+    position: absolute;
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+    top: 10px;
+    left: 400px;
+    text-align: center;
+    }
+
+    #camada2 {
+    position: absolute;
+    background-color: red;
+    width: 600px;
+    height: 150px;
+    top: 10px;
+    left: 600px;
+    text-align: center;
+    }
+
+    #camada3 {
+    position: absolute;
+    background-color: rgb(51, 225, 51);
+    width: 800px;
+    height: 50px;
+    top: 150px;
+    left: 400px;
+    text-align: center;
+    }
+
+    #camada4 {
+    position: absolute;
+    background-color: yellow;
+    border: 10px solid red;
+    width: 781px;
+    height: 500px;
+    top: 200px;
+    left: 400px;
+    text-align: center;
+    }
+
+    #camada5 {
+    position: absolute;
+    background-color: gray;
+    width: 800px;
+    height: 50px;
+    top: 718px;
+    left: 400px;
+    text-align: center;
+    }

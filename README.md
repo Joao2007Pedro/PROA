@@ -22,9 +22,11 @@ Organizar minha evolução na área de desenvolvimento de software, registrando 
 * JavaScript
 * Git e GitHub
 
-## 📈 Em progresso
+## 📈 Organização
 
-Este repositório é atualizado constantemente conforme avanço no curso.
+Este repositório está organizado por áreas de estudo.
+
+Na pasta `web/`, trabalho com exercícios e aulas de desenvolvimento front-end usando **HTML e CSS**.
 
 ---
 
