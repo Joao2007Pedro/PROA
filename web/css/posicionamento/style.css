@@ -1,0 +1,35 @@
+#camada1 {
+  position: absolute; /* componentes absolutos que está sobreposto à página */
+  width: 150px;
+  height: 100px;
+  background-color: aquamarine;
+  border: 5px solid blue;
+  text-align: center;
+  top: 200px; /* distância do topo da página */
+  left: 200px; /* distância da borda esquerda da página */
+  z-index: 1; /* ordem de sobreposição dos componentes, quanto maior o número, mais próximo do usuário */
+}
+
+#camada2 {
+  position: absolute; /* componentes absolutos que está sobreposto à página */
+  width: 250px;
+  height: 200px;
+  background-color: whitesmoke;
+  border: 5px solid black;
+  text-align: center;
+  top: 250px; /* distância do topo da página */
+  left: 250px; /* distância da borda esquerda da página */
+  z-index: 2; /* ordem de sobreposição dos componentes, quanto maior o número, mais próximo do usuário */
+}
+
+#camada3 {
+  position: absolute; /* componentes absolutos que está sobreposto à página */
+  top: 400px; /* distância do topo da página */
+  left: 400px; /* distância da borda esquerda da página */
+  z-index: 3; /* ordem de sobreposição dos componentes, quanto maior o número, mais próximo do usuário */
+}
+
+#camada3 img {
+  width: 300;
+  height: 250px;
+}
