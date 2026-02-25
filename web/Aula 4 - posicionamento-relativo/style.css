@@ -1,0 +1,63 @@
+ /* CSS Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+ 
+ #fundo {
+    position: relative;
+    width: 800px;
+    height: 750px;
+    background-color: aquamarine;
+    margin: auto; /* Centraliza o fundo horizontalmente */
+    margin-top: 15px;
+ } 
+
+ #camada1 {
+    position: relative;
+    width: 300px;
+    height: 380px;
+    background-color: black;
+    border: 5px solid gray;
+    color: white;
+    text-align: center;
+    padding: 15px; /* Adiciona um preenchimento interno de 15px */
+    float: left;  /* Float: faz comque a camada flutue para a esquerda */
+ }
+
+ #camada2 {
+    position: relative;
+    width: 300px;
+    height: 380px;
+    background-color: rgb(199, 190, 190);
+    border: 5px solid gray;
+    color: white;
+    text-align: center;
+    padding: 15px; /* Adiciona um preenchimento interno de 15px */
+    float: left;  /* Float: faz comque a camada flutue para a esquerda */
+ }
+
+  #camada3 {
+    position: relative;
+    width: 300px;
+    height: 380px;
+    background-color: rgb(97, 83, 83);
+    border: 5px solid gray;
+    color: white;
+    text-align: center;
+    padding: 15px; /* Adiciona um preenchimento interno de 15px */
+    clear: left;  /* Clear: limpa o float, ou seja, faz com que a camada fique abaixo das camadas flutuantes */
+ }
+
+ #camada_absoluta {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    padding: 15px; /* Adiciona um preenchimento interno de 15px */
+    top: 150px; /* Define a posição vertical da camada absoluta */
+    left: 250px; /* Define a posição horizontal da camada absoluta */
+    z-index: 2;
+ }
