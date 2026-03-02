@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 90vh;
+    background-color: #eee;
+}
+
+main {
+    width: 85%;
+    height: 95vh;
+    background-color: #bbb;
+    position: relative;
+    margin: auto
+}
+
+#header {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+#nav1 {
+    position: relative;
+    background-color: #000099;
+    width: 100%;
+    height: 7%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#nav1 a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav2 {
+    position: relative;
+    background-color: #cccc99;
+    color: white;
+    width: 20%;
+    height: 68%;
+    float: left;
+    text-align: center;
+
+}
+
+#nav2 a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 9%;
+    display: block;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+#section {
+    position: relative;
+    background-color: #ffccff;
+    width: 60%;
+    height: 68%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-section {
+    position: relative;
+    background-color: white;
+    color: black;
+    width: 95%;
+    height: 10%;
+    margin: 5px auto;
+    text-align: center;
+}
+
+#div1 {
+    position: relative;
+    background-color:#996600;
+    color: white;
+    width: 95%;
+    height: 35%;
+    margin: 5px auto;
+    text-align: center;
+
+}
+
+#div1 img {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    position: relative;
+    background-color: #ccccff;
+    width: 95%;
+    height: 15%;
+    margin: 5px auto;
+
+}
+
+#div2 {
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.div3 {
+    position: relative;
+    background-color: #666666;
+    color: white;
+    width: 33%;
+    height: 120px;
+    text-align: center;
+}
+
+.div3 img {
+    width: 100%;
+    height: 100%;
+}
+
+#aside {
+    position: relative;
+    background-color: #ff00ff;
+    width: 20%;
+    height: 68%;
+    float: left;
+    text-align: center;
+}
+
+#aside img {
+    width: 100%;
+    height: 100%;
+}
+
+#footer {
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    clear: left;
+}
