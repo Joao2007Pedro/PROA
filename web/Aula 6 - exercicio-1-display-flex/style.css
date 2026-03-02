@@ -1,164 +1,116 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-    height: 90vh;
-    background-color: #eee;
+.fundo {
+	width: 1230px;
+	margin: 0 auto;
+	position: relative;
 }
 
-main {
-    width: 85%;
-    height: 95vh;
-    background-color: #bbb;
-    position: relative;
-    margin: auto
-}
-
-#header {
-    position: relative;
-    margin: auto;
-    width: 100%;
-    height: 15%;
-    background-color: black;
-    color: white;
-    text-align: center;
-
+#header1,
+.rodape {
+	background: #000;
+	color: #fff;
+	text-align: center;
+	font-size: 48px;
+	line-height: 1;
+	padding: 26px 0;
+	position: relative;
 }
 
 #nav1 {
-    position: relative;
-    background-color: #000099;
-    width: 100%;
-    height: 7%;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+	background: #08089d;
+	color: #fff;
+	font-size: 46px;
+	line-height: 1;
+	padding: 6px 0 2px;
+	position: relative;
 }
 
-#nav1 a {
-    color: white;
-    text-decoration: none;
+.conteudo {
+	display: flex;
+	position: relative;
+	min-height: 560px;
 }
 
 #nav2 {
-    position: relative;
-    background-color: #cccc99;
-    color: white;
-    width: 20%;
-    height: 68%;
-    float: left;
-    text-align: center;
-
-}
-
-#nav2 a {
-    color: white;
-    text-decoration: none;
-    width: 100%;
-    height: 9%;
-    display: block;
-    text-align: left;
-    padding: 8px;
-    border-bottom: 1px solid #b3b3b3;
+	width: 245px;
+	background: #bebd9d;
+	color: #fff;
+	font-size: 48px;
+	text-align: center;
+	padding-top: 4px;
+	position: relative;
 }
 
 #section {
-    position: relative;
-    background-color: #ffccff;
-    width: 60%;
-    height: 68%;
-    float: left;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	width: 739px;
+	background: #e0b6e4;
+	padding: 0 18px 10px;
+	position: relative;
+    text-align: center;
+    color: white;
 }
 
-#header-section {
-    position: relative;
-    background-color: white;
-    color: black;
-    width: 95%;
-    height: 10%;
-    margin: 5px auto;
-    text-align: center;
+#header2 {
+	background: #ececec;
+	color: #000;
+	font-size: 38px;
+	text-align: center;
+	line-height: 1;
+	padding: 8px 0;
+	margin-bottom: 10px;
+	position: relative;
 }
 
 #div1 {
-    position: relative;
-    background-color:#996600;
-    color: white;
-    width: 95%;
-    height: 35%;
-    margin: 5px auto;
-    text-align: center;
-
-}
-
-#div1 img {
-    width: 100%;
-    height: 100%;
+	background: #9e6b00;
+	color: #fff;
+	font-size: 52px;
+	text-align: center;
+	line-height: 1;
+	padding: 4px 0 132px;
+	margin-bottom: 10px;
+	position: relative;
 }
 
 p {
-    position: relative;
-    background-color: #ccccff;
-    width: 95%;
-    height: 15%;
-    margin: 5px auto;
-
+	background: #b4b4dd;
+	color: #000;
+	height: 100px;
+	font-size: 30px;
+	padding: 2px 0 0 0;
+	margin-bottom: 10px;
+	position: relative;
 }
 
 #div2 {
-    position: relative;
-    width: 95%;
-    height: auto;
-    margin-top: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 10px;
+	display: flex;
+	gap: 17px;
+	position: relative;
 }
 
 .div3 {
-    position: relative;
-    background-color: #666666;
-    color: white;
-    width: 33%;
-    height: 120px;
-    text-align: center;
-}
-
-.div3 img {
-    width: 100%;
-    height: 100%;
+	flex: 1;
+	background: #6f6f6f;
+	color: #fff;
+	text-align: center;
+	font-size: 52px;
+	line-height: 1;
+	padding: 6px 0 72px;
+	position: relative;
 }
 
 #aside {
-    position: relative;
-    background-color: #ff00ff;
-    width: 20%;
-    height: 68%;
-    float: left;
-    text-align: center;
-}
-
-#aside img {
-    width: 100%;
-    height: 100%;
-}
-
-#footer {
-    position: relative;
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 10%;
-    text-align: center;
-    clear: left;
+	width: 246px;
+	background: linear-gradient(#ec00e9, #f000ff);
+	color: #fff;
+	font-size: 52px;
+	text-align: center;
+	line-height: 1;
+	padding-top: 6px;
+	position: relative;
 }

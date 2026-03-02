@@ -1,69 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Flex + Relative</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
-   <main>
-        <header id="header">
-            <h1>Curso de HTML5</h1>
-        </header>
+    <div class="fundo">
+        <header id="header1">HEADER</header>
 
-        <nav id="nav1">
-            <a href="#">HMTL</a>
-            <a href="#">CSS</a>
-            <a href="#">JavaScript 3</a>
-            <a href="#">Jquery 4</a>
-            <a href="#">Animação</a>
-            <a href="#">Formularios</a>
-        </nav>
+        <nav id="nav1">NAV</nav>
 
-        <nav id="nav2">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
-            <a href="#">Link 5</a>
-            <a href="#">Link 6</a>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
-            <a href="#">Link 5</a>
-        </nav>
+        <main class="conteudo">
+            <nav id="nav2">NAV</nav>
 
-        <section id="section">
+            <section id="section">
+                <h1>SECTION</h1>
 
-            <header id="header-section">Titulo do Conteudo</header>
+                <header id="header2">HEADER</header>
 
-            <div id="div1">
-                <img src="imagens/banner-full-hd.jpg" alt="">
-            </div>
+                <div id="div1">DIV</div>
 
-            <p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui"</p>
+                <p>Paragrafo</p>
 
-            <div id="div2">
-                <div class="div3">
-                    <img src="imagens/fundo.jpg" alt="">
+                <div id="div2">
+                    <div class="div3">DIV</div>
+                    <div class="div3">DIV</div>
+                    <div class="div3">DIV</div>
                 </div>
-                <div class="div3">
-                    <img src="imagens/imagem4.jpg" alt="">
-                </div>
-                <div class="div3">
-                    <img src="imagens/sol.png" alt="">
-                </div>
-            </div>
+            </section>
 
-        </section>
+            <aside id="aside">ASIDE</aside>
+        </main>
 
-        <aside id="aside">
-            <img src="imagens/propaganda.jpg" alt="">
-        </aside>
-
-        <footer id="footer">Rodapé</footer>
-    </main>
+        <footer class="rodape">FOOTER</footer>
+    </div>
 </body>
 </html>
