@@ -1,4 +1,3 @@
-Replicar layout com HTML e CSS utilizando 
-    position: absolute
-    top
-    left
+## Atividade 7 - Interfaces
+Instruções
+Usando comandos de HTML e CSS, juntamente de conceitos de componentes absolutos, reproduzir a seguinte layout anexado:
