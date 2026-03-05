@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgb(146, 205, 50);
+    color: white;
+    width: 80%;
+    height: 6.25rem;
+    align-items: center;
+}
+main {
+    width: 80%;
+    height: auto;
+}
+
+#secao1 {
+    background-color: darksalmon;
+    width: 100%;
+    height: 25rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.fundo {
+    background-color: red;
+    width: 100%;
+    height: 23.75rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.rosa {
+    background-color: darksalmon;
+    width: 45%;
+    height: 18.75rem;
+}
+
+#secao2 {
+    background-color: rgb(150, 242, 242);
+    width: 100%;
+    height: 18.75rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.branca {
+    background-color: #fff;
+    width: 20%;
+    height: 17.1875rem;
+    margin: auto;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#secao3 {
+    background-color: darksalmon;
+    width: 100%;
+    height: 26.5625rem;
+    display: flex;
+    align-items: center;
+}
+
+.laranja {
+    background-color: orange;
+    width: 100%;
+    height: 25rem;
+}
+
+#secao4 {
+    background-color: darksalmon;
+    width: 100%;
+    height: 26.5625rem;
+    display: flex;
+    align-items: center;
+}
+
+.fundo2 {
+    background-color: yellow;
+    width: 100%;
+    height: 25.9375rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+.azul-escuro {
+    background-color: blue;
+    width: 45%;
+    height: 18.75rem;
+}
+
+.verde {
+    background-color: darkcyan;
+    width: 45%;
+    height: 18.75rem;
+}
+
+footer {
+    background-color: black;
+    width: 80%;
+    height: 12.5rem;
+    display: flex;
+    margin: auto;
+}
