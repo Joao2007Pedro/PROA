@@ -11,22 +11,27 @@
     <header>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Quem Somos</li>
-                <li>Instrumentos</li>
-                <li>Endereço</li>
-                <li>Contato</li>
+                <li><a href="#secao1">Home</a></li>
+                <li><a href="#secao1">Quem Somos</a></li>
+                <li><a href="#secao2">Instrumentos</a></li>
+                <li><a href="#secao3">Endereço</a></li>
+                <li><a href="#secao4">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+
         <!-- Seção 1 - Sobre a loja -->
         <section id="secao1">
-            <div class="fundo">
+            <div class="sobre-container">
                 <div class="sobre-texto">
                     <h2>Nossa Loja - Instrumentos Musicais</h2>
                     <p>Se você é um amante da música, está em busca de um novo instrumento musical e não abre mão da qualidade, chegou ao lugar certo! Aqui em nossa loja você encontra os melhores itens, como: teclado, piano (digital e acústico), contrabaixo, bateria, guitarra, violão, sopro e muito mais! Nossos instrumentos possuem o selo de qualidade das melhores marcas do mercado! Escolha os seus favoritos e os receba em casa com toda a comodidade que você precisa. Confira nossas opções disponíveis e tenha em mãos instrumentos de ponta!</p>
+                </div>
+                <div class="sobre-imagem">
+                    <!-- Substitua pelo caminho da sua imagem da loja -->
+                    <img src="imagens/loja.jpg" alt="Interior da loja de instrumentos musicais">
                 </div>
             </div>
         </section>
@@ -34,6 +39,7 @@
         <!-- Seção 2 - Produtos -->
         <section id="secao2">
             <div class="produto">
+                <!-- Substitua pelo caminho da imagem do produto -->
                 <img src="imagens/guitarrinha.jpg" alt="Violão Yamaha">
                 <p class="produto-nome">VIOLÃO YAMAHA C70 II CLÁSSICO NYLON ACÚSTICO NATURAL BRILHANTE</p>
                 <p class="produto-preco">R$ 989,50</p>
@@ -59,7 +65,7 @@
         <section id="secao3">
             <div class="endereco-container">
                 <div class="mapa">
-                    <img src="imagens/loja.jpg" alt="Mapa da loja">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1227833051867!2d-46.69433512459502!3d-23.5280858788227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8775663b04f%3A0x923835e9005f8309!2sSenac%20Lapa%20Tito!5e0!3m2!1spt-BR!2sbr!4v1773270394404!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="endereco-info">
                     <h2>Nossa Loja - Instrumentos Musicais</h2>
@@ -72,19 +78,20 @@
         <section id="secao4">
             <div class="contato-container">
                 <div class="formulario">
-                    <label>Entre com o seu nome:</label>
-                    <input type="text" placeholder="Digite seu nome aqui">
+                    <label for="nome">Entre com o seu nome:</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome aqui">
 
-                    <label>Entre com o seu e-mail:</label>
-                    <input type="email" placeholder="Digite seu email aqui">
+                    <label for="email">Entre com o seu e-mail:</label>
+                    <input type="email" id="email" placeholder="Digite seu email aqui">
 
-                    <textarea placeholder="Faça seu pedido por aqui:"></textarea>
+                    <textarea id="mensagem" placeholder="Faça seu pedido por aqui:"></textarea>
 
                     <button type="button">Enviar</button>
                 </div>
                 <div class="redes-sociais">
                     <h3>Acesse também nossas redes socias:</h3>
                     <div class="icones-redes">
+                        <!-- Substitua pelos caminhos das imagens dos ícones -->
                         <img src="imagens/whats.png" alt="WhatsApp">
                         <img src="imagens/insta.png" alt="Instagram">
                         <img src="imagens/face.png" alt="Facebook">
@@ -92,6 +99,7 @@
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer>
