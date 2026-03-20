@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <h1>Exercício 1</h1>
+
+    <h2>Enunciado:</h2>
+        <h3>1. Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e
+            mostre-a expressa em dias. Leve em consideração o ano com 365 dias e o mês com 30.
+            (Ex: 3 anos, 2 meses e 15 dias = 1170 dias.)
+        </h3>
+
+        <script>
+            let idadeAnos = parseInt(prompt("Digite a idade em anos:"));
+            let idadeMeses = parseInt(prompt("Digite a idade em meses:"));
+            let idadeDias = parseInt(prompt("Digite a idade em dias:"));
+
+            let totalDias = (idadeAnos * 365) + (idadeMeses * 30) + idadeDias;
+            document.write(`A idade total em dias é: ${totalDias} dias.`);
+        </script>
+    
+</body>
+</html>
