@@ -27,6 +27,7 @@ Organizar minha evolução na área de desenvolvimento de software, registrando 
 Este repositório está organizado por áreas de estudo.
 
 Na pasta `web/`, trabalho com exercícios e aulas de desenvolvimento front-end usando **HTML e CSS**.
+Na pasta `logica/`, vou concentrar exercícios, desafios e anotações de raciocínio lógico usando **JavaScript**.
 
 ---
 
