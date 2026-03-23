@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 18</title>
+</head>
+<body>
+
+    <h1>Exercício 18</h1>
+
+    <h2>Enunciado:</h2>
+        <h3>18. Escreva um programa que leia o nome e a idade de 10 pessoas e exiba o nome da pessoa
+            mais nova.
+        </h3>
+
+    <script>
+        let nomeMaisNovo = '';
+        let idadeMaisNova = 999;
+
+        for (let i = 0; i < 10; i++) {
+            let nome = prompt('Digite o nome da pessoa ' + (i + 1) + ':');
+            let idade = parseInt(prompt('Digite a idade de ' + nome + ':'));
+
+            if (idade < idadeMaisNova) {
+                idadeMaisNova = idade;
+                nomeMaisNovo = nome;
+            }
+        }
+
+        document.write('A pessoa mais nova é ' + nomeMaisNovo + ' com ' + idadeMaisNova + ' anos.');
+    </script>
+
+</body>
+</html>
