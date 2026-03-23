@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <h1>Calculadora IMC</h1>
+
+    <script>
+        let kilos = parseFloat(prompt('Digite seu peso em kg:'));
+        let altura = parseFloat(prompt('Digite a sua altura em centimetros:'));
+
+        let alturaEmMetros = altura / 100;
+        let imc = kilos / (alturaEmMetros * alturaEmMetros);
+        let classificacao = '';
+
+        if (imc < 18.5) {
+                classificacao = 'Abaixo do peso';
+        } else if (imc < 25) {
+                classificacao = 'Peso normal';
+        } else if (imc < 30) {
+                classificacao = 'Sobrepeso';
+        } else if (imc < 35) {
+                classificacao = 'Obesidade grau 1';
+        } else {
+                classificacao = 'Obesidade grau 2'; 
+        }
+
+        document.write('Peso: ' + kilos + ' kg<br>');
+        document.write('Altura: ' + altura + ' cm<br>');
+        document.write('Seu IMC é ' + imc.toFixed(2) + ' (' + classificacao + ')');
+
+    </script>
+</body>
+</html>

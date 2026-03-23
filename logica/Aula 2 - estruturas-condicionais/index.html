@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos condicionais usando JavaScript</title>
+</head>
+<body>
+
+    <h1> Comando condicionais usando IF</h1>
+    <script>
+        let nota1 = parseFloat(prompt("Digite a primeira nota: "));
+        document.write("A primeira nota é: " + nota1);
+
+        let nota2 = parseFloat(prompt("Digite a segunda nota: "));
+        document.write("<br> A segunda nota é: " + nota2);
+
+        let nota3 = parseFloat(prompt("Digite a terceira nota: "));
+        document.write("<br> A terceira nota é: " + nota3);
+
+        let nota4 = parseFloat(prompt("Digite a quarta nota: "));
+        document.write("<br> A quarta nota é: " + nota4);
+
+        let media = (nota1 + nota2 + nota3 + nota4) / 4;
+        document.write("<br> A média é: " + media);
+
+        if (media >= 6){
+            alert("<br> Aprovado");
+        }else if (media >=5 && media < 6){
+            alert("<br> Recuperação");
+        } else {
+            alert("<br> Reprovado");
+        }
+
+    </script>
+
+    
+</body>
+</html>
