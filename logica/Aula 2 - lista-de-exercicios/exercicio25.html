@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 25</title>
+</head>
+<body>
+
+    <h1>Exercício 25</h1>
+
+    <h2>Enunciado:</h2>
+        <h3>25. Escreva um programa que leia uma sequência de números do usuário e realize e a soma
+            desses números. Encerre a execução quando um número negativo for digitado.
+        </h3>
+
+        <script>
+            let sum = 0;
+            let num;
+
+            for (let i = 0; i < 20; i++) {
+                num = parseFloat(prompt("Digite um número (ou um número negativo para encerrar):"));
+                if (num < 0) {
+                    break;
+                }
+                sum += num;
+            }
+
+            alert("A soma dos números digitados é: " + sum);
+        </script>
+    
+</body>
+</html>

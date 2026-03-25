@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 23</title>
+</head>
+<body>
+
+    <h1>Exercício 23</h1>
+
+    <h2>Enunciado:</h2>
+        <h3>23. Faça um programa que leia 20 números e, ao final, escreva quantos estão entre 0 e 100,
+quantos estão entre 101 e 200 e quantos são maiores de 200.
+        </h3>
+
+        <script>
+            let count1 = 0;
+            let count2 = 0;
+            let count3 = 0;
+
+            for (let i = 0; i < 20; i++) {
+                let num = parseFloat(prompt("Digite um número:"));
+                if (num > 0 && num < 100) {
+                    count1++;
+                } else if (num >= 101 && num <= 200) {
+                    count2++;
+                } else if (num > 200) {
+                    count3++;
+                }
+            }
+
+            alert("Quantidade de números entre 0 e 100: " + count1);
+            alert("Quantidade de números entre 101 e 200: " + count2);
+            alert("Quantidade de números maiores que 200: " + count3);
+        </script>
+    
+</body>
+</html>
