@@ -24,20 +24,19 @@
 
         <script>
             let saldoMedio = parseFloat(prompt('Digite o saldo médio do cliente:'));
-            let valorCredito = 0;
+            let valorCredito = 0; // Inicializa o valor do crédito
 
-            if (saldoMedio >= 0 && saldoMedio <= 500) {
+            if (saldoMedio <= 500) {
                 valorCredito = 0;
-            } else if (saldoMedio > 500 && saldoMedio <= 1000) {
+            } else if (saldoMedio <= 1000) {
                 valorCredito = saldoMedio * 0.30;
-            } else if (saldoMedio > 1000 && saldoMedio <= 3000) {
+            } else if (saldoMedio <= 3000) {
                 valorCredito = saldoMedio * 0.40;
-            } else if (saldoMedio > 3000) {
-                valorCredito = saldoMedio * 0.50;
             } else {
-                document.write('Saldo médio inválido. Por favor, insira um valor positivo.');
-                return;
+                valorCredito = saldoMedio * 0.50;
             }
+
+            document.write(`Saldo Médio: R$ ${saldoMedio.toFixed(2)}<br>Valor do Crédito: R$ ${valorCredito.toFixed(2)}`); // Exibe o saldo médio e o valor do crédito formatados com duas casas decimais
         </script>
     
 </body>
