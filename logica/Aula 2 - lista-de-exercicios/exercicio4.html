@@ -19,16 +19,26 @@
             let B = parseFloat(prompt('Digite o valor de B:'));
             let C = parseFloat(prompt('Digite o valor de C:'));
 
-            function ordenarDescendente(a, b, c) {
-                let numeros = [a, b, c];
-                numeros.sort(function(x, y) {
-                    return y - x; 
-                });
-                return numeros;
+            if (A > B && A > C) { // A é o maior
+                if (B > C) {
+                    document.write("Valores : " + A + ", " + B + ", " + C);
+                } else {
+                    document.write("Valores : " + A + ", " + C + ", " + B);
+                }
+            } else if (B > A && B > C) { // B é o maior
+                if (A > C) {
+                    document.write("Valores : " + B + ", " + A + ", " + C);
+                } else {
+                    document.write("Valores : " + B + ", " + C + ", " + A);
+                }
+            } else { // C é o maior
+                if (A > B) {
+                    document.write("Valores : " + C + ", " + A + ", " + B); 
+                } else {
+                    document.write("Valores : " + C + ", " + B + ", " + A);
+                }
             }
 
-            let numeros = ordenarDescendente(A, B, C);
-            document.write('Valores em ordem descendente: ' + numeros.join(', '));
         </script>
     
 </body>
