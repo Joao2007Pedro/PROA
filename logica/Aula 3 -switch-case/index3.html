@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício De Combos(Fast Food)</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            padding: 20px;
+        }
+        h1 {
+            color: #d9534f;
+        }
+        h3 {
+            color: #5bc0de;
+        }
+        b {
+            color: #5cb85c;
+        }   
+    </style>
+
+    <h1>Exercício De Combos(Fast Food) com Switch/Case</h1>
+
+    <script>
+        let combo = parseInt(prompt("Digite o número do combo Burger King (1 a 5):"));
+        let descricaoCombo;
+
+        switch (combo) {
+            case 1:
+                descricaoCombo = "<b>Combo Whopper:</b> Hambúrguer de carne grelhada, batata média e free refill <br> R$ 38,90";
+                break;
+            case 2:
+                descricaoCombo = "<b>Combo BK Original:</b> O clássico com pão brioche, carne e queijo, batata e free refill <br> R$ 36,90";
+                break;
+            case 3:
+                descricaoCombo = "<b>Combo Chicken Crisp:</b> Frango crocante, alface, maionese, batata e free refill <br> R$ 34,90";
+                break;
+            case 4:
+                descricaoCombo = "<b>Combo Mega Stacker 2.0:</b> Duas carnes, muito bacon e queijo cheddar, batata e free refill <br> R$ 44,90";
+                break;
+            case 5:
+                descricaoCombo = "<b>Combo Whopper de Plantas:</b> O sabor do Whopper em versão 0% carne, batata e free refill <br> R$ 39,90";
+                break;
+            default:
+                descricaoCombo = "Número de combo inválido. Por favor, digite um número entre 1 e 5.";
+        }
+
+            document.write("<h3>🍔 Seu pedido BK:</h3>" + descricaoCombo);
+    </script>
+    
+</body>
+</html>

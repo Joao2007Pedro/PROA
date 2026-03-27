@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Switch/Case</title>
+</head>
+<body>
+    <h1>Testando o comando condicional Switch/Case</h1>
+
+    <script>
+        let DiaSemana = parseInt(prompt("Entre com o no. do dia da semana:"));
+        let NomeDia;
+
+        switch (DiaSemana) {
+            case 1:
+                NomeDia = "Domingo";
+                break;
+            case 2:
+                NomeDia = "Segunda-feira";
+                break;
+            case 3:
+                NomeDia = "Terça-feira";
+                break;
+            case 4:
+                NomeDia = "Quarta-feira";
+                break;
+            case 5:
+                NomeDia = "Quinta-feira";
+                break;
+            case 6:
+                NomeDia = "Sexta-feira";
+                break;
+            case 7:
+                NomeDia = "Sábado";
+                break;
+            default:
+                alert("Número do dia da semana inválido. Por favor, digite um número entre 1 e 7.");
+        }
+
+        document.write("O dia da semana correspondente ao número " + DiaSemana + " é: " + NomeDia);
+    </script>
+</body>
+</html>
