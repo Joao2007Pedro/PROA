@@ -1,0 +1,11 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+    color: brown;
+}
+
+.myImg {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
