@@ -1,7 +1,7 @@
 function stark() {
     document.querySelector(".fundo").style.backgroundColor="black";
     document.querySelector(".fundo").style.color="white"
-    document.querySelector(".myImg").src="./imagens/fundo.jpg"
+    document.querySelector(".myImg").src="./imagens/fundo.jpg"  
 }
 
 function snow() {
