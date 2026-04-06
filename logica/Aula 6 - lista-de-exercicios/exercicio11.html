@@ -13,8 +13,18 @@
             loop "while". </h3>
 
         <script>
+            let numero = parseInt(prompt("Digite um número inteiro:"));
+            let somaPares = 0;
+            let i = 0;
 
+            while (i <= numero) {
+                if (i % 2 === 0) {
+                    somaPares += i;
+                }
+                i++;
+            }
 
+            document.write("A soma dos números pares entre 1 e " + numero + " é: " + somaPares);
         </script>
     
 </body>
