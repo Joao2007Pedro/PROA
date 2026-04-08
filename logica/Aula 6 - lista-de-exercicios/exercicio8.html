@@ -12,16 +12,16 @@
             sequência de Fibonacci até o número lido usando o loop "while".</h3>
 
         <script>
-            let numero = parseInt(prompt("Digite um número inteiro: "));
-            let a = 0, b = 1, temp;
+            let numero = parseInt(prompt("Digite um número inteiro: ")); // Solicita ao usuário que digite um número inteiro e armazena o valor na variável 'numero'
+            let a = 0, b = 1, temp; // Variáveis para armazenar os dois últimos números da sequência de Fibonacci e uma variável temporária para a troca de valores
 
-            document.write("Sequência de Fibonacci até " + numero + ":<br>");
+            document.write("Sequência de Fibonacci até " + numero + ":<br>"); // Exibe o título da sequência de Fibonacci
 
             while (a <= numero) {
-                document.write(a + "<br>");
-                temp = a;
-                a = b;
-                b = temp + b;
+                document.write(a + "<br>"); // Exibe o número atual da sequência
+                temp = a; // Armazena o valor atual de 'a' em 'temp'
+                a = b; // Atualiza 'a' para o próximo número da sequência (o valor atual de 'b')
+                b = temp + b; // Atualiza 'b' para o próximo número da sequência (a soma do valor atual de 'temp' e 'b')
             }
         </script>
     

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 22</title>
+</head>
+<body>
+    <h1>Exercicio 22</h1>
+        <h2>Enunciado:</h2>
+        <h3>22-  Faça um programa que leia um número inteiro e exiba se ele é
+            um número primo usando o loop "do-while"</h3>
+    
+        <script>
+            let numero = parseInt(prompt("Digite um número inteiro:"));
+            let ehPrimo = true;
+            let divisor = 2;
+
+            if (numero < 2) {
+                ehPrimo = false;
+            } else {
+                do {
+                    if (numero % divisor === 0) {
+                        ehPrimo = false;
+                        break;
+                    }
+                    divisor++;
+                } while (divisor <= Math.sqrt(numero));
+            }
+
+            if (ehPrimo) {
+                alert(numero + " é um número primo.");
+            } else {
+                alert(numero + " não é um número primo.");
+            }
+        </script>
+</body>
+</html>
