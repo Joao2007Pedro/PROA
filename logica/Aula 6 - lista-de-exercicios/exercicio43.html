@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 43</title>
+</head>
+<body>
+    <h1>Exercicio 43</h1>
+        <h2>Enunciado: </h2>
+        <h3>43 - Faça um programa que leia um número inteiro e exiba os seus
+            dígitos separadamente.</h3>
+
+        <script>
+            let numero = prompt("Digite um número inteiro:");
+            let digitos = numero.split("");
+            document.write("Os dígitos do número " + numero + " são: <br>");
+            for (let i = 0; i < digitos.length; i++) {
+                document.write(digitos[i] + "<br>");
+            }
+        </script>
+    
+</body>
+</html>

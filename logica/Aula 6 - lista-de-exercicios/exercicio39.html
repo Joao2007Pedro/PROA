@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 39</title>
+</head>
+<body>
+    <h1>Exercicio 39</h1>
+        <h2>Enunciado: </h2>
+        <h3>39 - Crie um programa que leia o nome e a idade de 5 pessoas e
+            exiba a média das idades.</h3>
+
+        <script>
+            let totalIdade = 0;
+            let quantidadePessoas = 5;
+
+            for (let i = 0; i < quantidadePessoas; i++) {
+                let nome = prompt("Digite o nome da pessoa " + (i + 1) + ":");
+                let idade = parseInt(prompt("Digite a idade de " + nome + ":"));
+                totalIdade += idade;
+            }
+
+            let mediaIdade = totalIdade / quantidadePessoas;
+            document.write("A média das idades é: " + mediaIdade.toFixed(2));
+        </script>
+    
+</body>
+</html>

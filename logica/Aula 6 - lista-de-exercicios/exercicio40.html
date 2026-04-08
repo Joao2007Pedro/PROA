@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 40</title>
+</head>
+<body>
+    <h1>Exercicio 40</h1>
+        <h2>Enunciado: </h2>
+        <h3>40 - Faça um programa que exiba os primeiros 20 números da
+        sequência de Fibonacci.</h3>
+
+        <script>
+            let a = 0, b = 1;
+            document.write("Primeiros 20 números da sequência de Fibonacci:<br>");
+
+            for (let i = 0; i < 20; i++) {
+                document.write(a + "<br>");
+                let temp = a;
+                a = b;
+                b = temp + b;
+            }
+        </script>
+    
+</body>
+</html>

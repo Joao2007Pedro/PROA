@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 38</title>
+</head>
+<body>
+    <h1>Exercicio 38</h1>
+        <h2>Enunciado: </h2>
+        <h3>38 - Escreva um programa que leia um número inteiro e exiba a
+            sequência de Fibonacci até o número lido.</h3>
+
+        <script>
+            let numero = parseInt(prompt("Digite um número inteiro: "));
+            let a = 0, b = 1;
+
+            document.write("Sequência de Fibonacci até " + numero + ":<br>");
+
+            for (; a <= numero;) {
+                document.write(a + "<br>");
+                let temp = a;
+                a = b;
+                b = temp + b;
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 34</title>
+</head>
+<body>
+    <h1>Exercicio 34</h1>
+        <h2>Enunciado: </h2>
+        <h3>34 -Faça um programa que leia 5 números inteiros e exiba a média
+            aritmética dos valores lidos.</h3>
+
+        <script>
+            let soma = 0;
+            let quantidade = 5;
+
+            for (let i = 0; i < quantidade; i++) {
+                let numero = parseInt(prompt("Digite um número inteiro:"));
+                soma += numero;
+            }
+
+            let media = soma / quantidade;
+            document.write("A média aritmética dos valores lidos é: " + media);
+        </script>
+</body>
+</html>

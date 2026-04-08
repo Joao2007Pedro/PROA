@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 45</title>
+</head>
+<body>
+    <h1>Exercicio 45</h1>
+        <h2>Enunciado: </h2>
+        <h3>45 - Crie um programa que leia o nome e a idade de várias pessoas
+            até que o nome "fim" seja informado. Ao final, exiba a média das
+            idades.</h3>
+
+        <script>
+            let somaIdades = 0;
+            let contador = 0;
+
+            for (let nome = prompt("Digite um nome (ou 'fim' para encerrar):"); 
+                nome !== "fim"; 
+                nome = prompt("Digite um nome (ou 'fim' para encerrar):")) {
+
+                let idade = parseInt(prompt("Digite a idade de " + nome + ":"));
+                somaIdades += idade;
+                contador++;
+            }
+
+            if (contador > 0) {
+                let media = somaIdades / contador;
+                document.write("Média das idades: " + media);
+            } else {
+                document.write("Nenhuma idade foi informada.");
+            }
+        </script>
+    
+</body>
+</html>
