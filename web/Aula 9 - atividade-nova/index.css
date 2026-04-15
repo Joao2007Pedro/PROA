@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +34,7 @@ section {
     gap: 20px;
     margin: auto;
     font-size: 16px;
+    cursor: pointer;
 }
 
 section h2 {
@@ -44,6 +46,7 @@ section h2 {
     height: 35px;
     background-color: #c4daf2;
     border: black 2px solid;
+    cursor: pointer;
 }
 
 #cadastrar {
@@ -51,6 +54,7 @@ section h2 {
     height: 35px;
     background-color: #007c89;
     color: white;
+    cursor: pointer;
 }
 
 main {
@@ -109,7 +113,6 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    
 }
 
 #card1 div {
