@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9</title>
+</head>
+<body>
+    <h1>Crie um programa que leia 10 números inteiros e exiba a
+    quantidade de números positivos e a quantidade de números
+    negativos.</h1>
+
+    <script>
+        let contadorPositivos = 0;
+        let contadorNegativos = 0;
+
+        for (let i = 0; i < 10; i++) {
+            let numero = parseInt(prompt("Digite um número inteiro:"));
+            if (numero > 0) {
+                contadorPositivos++;
+            } else if (numero < 0) {
+                contadorNegativos++;
+            }
+        }
+
+        alert("Quantidade de números positivos: " + contadorPositivos + "\nQuantidade de números negativos: " + contadorNegativos);
+    </script>
+        
+    </script>
+        
+</body>
+</html>

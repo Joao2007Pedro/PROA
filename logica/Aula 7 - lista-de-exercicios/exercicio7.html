@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 7</title>
+</head>
+<body>
+    <h1>Faça um programa que leia 10 números inteiros e exiba quantos
+        deles são positivos.</h1>
+
+    <script>
+        let contadorPositivos = 0;
+
+        for (let i = 0; i < 10; i++) {
+            let numero = parseInt(prompt("Digite um número inteiro:"));
+            if (numero > 0) {
+                contadorPositivos++;
+            }
+        }
+
+        alert("Quantidade de números positivos: " + contadorPositivos);
+    </script>
+</body>
+</html>

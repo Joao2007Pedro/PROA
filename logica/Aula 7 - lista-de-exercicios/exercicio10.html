@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+</head>
+<body>
+    <h1>Faça um programa que leia 5 números inteiros e verifique se
+        algum deles é igual a zero.</h1>
+
+    <script>
+        let encontrouZero = false;
+
+        for (let i = 0; i < 5; i++) {
+            let numero = parseInt(prompt("Digite um número inteiro:"));
+            if (numero === 0) {
+                encontrouZero = true;
+                break;
+            }
+        }
+
+        if (encontrouZero) {
+            alert("Foi encontrado um número igual a zero.");
+        } else {
+            alert("Nenhum número igual a zero foi encontrado.");
+        }
+    </script>
+    
+</body>
+</html>
