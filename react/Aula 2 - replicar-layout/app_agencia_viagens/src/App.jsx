@@ -4,6 +4,8 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Escocia from './components/Escocia';
 import Aruba from './components/Aruba';
+import Grand from './components/Grand';
+import China from './components/China';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Home />
         <Escocia />
         <Aruba />
+        <China />
+        <Grand />
         <Footer />
     </main>
   )
