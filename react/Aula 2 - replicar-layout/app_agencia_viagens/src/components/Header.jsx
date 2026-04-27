@@ -14,19 +14,19 @@ function Header() {
         <nav className={Style.menu}>
           <ul>
             <li>
-              <a href="">Home</a>
+              <Link to='/'>Home</Link>
             </li>
             <li>
-              <a href="">Grand Canyon</a>
+              <Link to='/Aruba'>Aruba</Link>
             </li>
             <li>
-              <a href="">Katmandu</a>
+              <Link to='/Escocia'>Escocia</Link>
             </li>
             <li>
-              <a href="">Muralhas da China</a>
+              <Link to='/Canyon'>Grand Canyon</Link>
             </li>
             <li>
-              <a href="">Aruba</a>
+              <Link to='/Muralha'>Muralha da China</Link>
             </li>
           </ul>
         </nav>
