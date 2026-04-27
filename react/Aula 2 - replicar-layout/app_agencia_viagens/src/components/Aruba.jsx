@@ -1,20 +1,26 @@
-import styles from '../css/Aruba.module.css'
-import ArubaImagem from '../assets/aruba.jpg'
+import styles from "../css/Aruba.module.css";
+import ComponenteProps from "./ComponenteProps";
+import Bandeira_aruba from "../assets/imagens/aruba.png";
+import PropsForm from "../components/PropsForm";
 
-function Aruba() {  
-    return(
-
-        <section className={styles.container_aruba}>
-                    <div className={styles.esquerda}>
-                        <img src={ArubaImagem} alt="Aruba" className={styles.aruba} />
-                    </div>
-        
-                    <div className={styles.direita}>
-                        <h1>Venha conhecer Aruba!!</h1>
-                    </div>
-        </section>
-
-    )
+function Aruba() {
+  const variaveis = {
+    lugar: "Aruba",
+    texto:
+      "Aruba é um país insular constituinte do Reino dos Países Baixos, localizado nas Pequenas Antilhas no sul do mar do Caribe, ao largo da costa da Venezuela.",
+    bandeira: Bandeira_aruba,
+  };
+  return (
+    <section className={styles.fundo_aruba}>
+      <h1>Venha conhecer toda a Magia de Aruba</h1>
+      <ComponenteProps
+        lugar={variaveis.lugar}
+        texto={variaveis.texto}
+        bandeira={variaveis.bandeira}
+      />
+      <PropsForm />
+    </section>
+  );
 }
 
-export default Aruba
+export default Aruba;

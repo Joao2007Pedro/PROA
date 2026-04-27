@@ -1,20 +1,18 @@
-import React from "react";
-import styles from "../css/Escocia.module.css";
+import styles from "../css/Canyon.module.css";
 import ComponenteProps from "./ComponenteProps";
-import Bandeira_escocia from "../assets/imagens/escocia.png";
+import Bandeira_canyon from "../assets/imagens/usa.png";
 import PropsForm from "../components/PropsForm";
 
-function Escocia() {
+function Canyon() {
   const variaveis = {
-    lugar: "Escócia",
+    lugar: "Grand Canyon",
     texto:
       "Este pais fantástico conta com encantos atemporais, com seus castelos medievais. Eles aguardam você para uma viagem inesquecivel!",
-    bandeira: Bandeira_escocia,
+    bandeira: Bandeira_canyon,
   };
-
   return (
-    <section className={styles.fundo_escocia}>
-      <h1>Venha conhecer a Escócia</h1>
+    <section className={styles.fundo_canyon}>
+      <h1>Venha conhecer o Grand Canyon!</h1>
       <ComponenteProps
         lugar={variaveis.lugar}
         texto={variaveis.texto}
@@ -25,4 +23,4 @@ function Escocia() {
   );
 }
 
-export default Escocia;
+export default Canyon;

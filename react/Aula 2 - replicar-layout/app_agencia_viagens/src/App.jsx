@@ -1,24 +1,28 @@
-import './App.css'
-import Header from './components/Header';
-import Home from './components/Home';
-import Footer from './components/Footer';
-import Escocia from './components/Escocia';
-import Aruba from './components/Aruba';
-import Grand from './components/Grand';
-import China from './components/China';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'; 
+import "./css/App.css";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
+import Escocia from "./components/Escocia";
+import Aruba from "./components/Aruba";
+import Muralha from "./components/Muralha";
+import Canyon from "./components/Canyon";
 
 function App() {
   return (
     <main>
+      <Router>
         <Header />
-        <Home />
-        <Escocia />
-        <Aruba />
-        <China />
-        <Grand />
-        <Footer />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/Escocia' element={<Escocia />} />
+            <Route path='/Aruba' element={<Aruba />} />
+            <Route path='/Canyon' element={<Canyon />} />
+            <Route path='/Muralha' element={<Muralha />} />
+          </Routes>
+      </Router> 
     </main>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,37 +1,12 @@
-.container_escocia {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background-color: gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+.fundo_escocia {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-image: url(../assets/imagens/Escocia.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.escocia {
-    width: 100%;
-    height: 500px;
-}
-
-.esquerda {
-    width: 50%;
-    height: 500px;
-}
-
-.direita {
-    width: 50%;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-}
-
-.direita h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 45px;
-    color: rgb(26, 26, 101);
-    text-align: center;
+h1 {
+  color: #000;
 }
