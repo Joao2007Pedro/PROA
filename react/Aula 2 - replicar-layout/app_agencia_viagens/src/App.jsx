@@ -20,7 +20,7 @@ function App() {
             <Route path='/Canyon' element={<Canyon />} />
             <Route path='/Muralha' element={<Muralha />} />
           </Routes>
-          <Footer />
+        <Footer />
       </Router> 
     </main>
   );
