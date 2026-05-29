@@ -34,6 +34,10 @@ Na pasta `logica/`, vou concentrar exercícios, desafios e anotações de racioc
 
 Na pasta `react/`, vou organizar as tarefas e práticas de **React**.
 
+Na pasta `banco/`, vou deixar as tarefas de banco de dados em **MySQL**
+
+Na pasta `java/`, vou deixar os exercicios em **Java**
+
 ---
 
 Feito por João Pedro Pereira Ramos
