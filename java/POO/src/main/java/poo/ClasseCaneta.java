@@ -11,7 +11,7 @@ public class ClasseCaneta {
         boolean tampa;
 
         void escrever() {
-            if (carga >= 0 && tampa == false) {
+            if (this.carga >= 0 && this.tampa == false) {
                 System.out.println("Escrevendo...");
             } else {
                 System.out.println("Sem tinta!");
@@ -19,7 +19,7 @@ public class ClasseCaneta {
         }
 
         void rabiscar() {
-            if (carga >= 0 && tampa == false) {
+            if (this.carga >= 0 && this.tampa == false) {
                 System.out.println("Rabiscar...");
             } else {
                 System.out.println("Sem tinta!");
@@ -27,7 +27,7 @@ public class ClasseCaneta {
         }
 
         void pintar() {
-            if (carga >= 0 && tampa == false) {
+            if (this.carga >= 0 && this.tampa == false) {
                 System.out.println("Pintando...");
             } else {
                 System.out.println("Sem tinta!");
@@ -35,13 +35,13 @@ public class ClasseCaneta {
         }
 
         void estado() {
-            System.out.println("Está caneta é do marca: " + marca);
-            System.out.println("Está caneta é da cor: " + cor);
-            System.out.println("Está caneta é do tipo: " + tipo);
-            System.out.println("Está caneta é do material: " + material);
-            System.out.println("Está caneta esta com " + carga + "% de carga");
-            System.out.println("Está caneta tem a ponta: " + ponta);
-            System.out.println("Está caneta tem a tampa: " + tampa);
+            System.out.println("Está caneta é do marca: " + this.marca);
+            System.out.println("Está caneta é da cor: " + this.cor);
+            System.out.println("Está caneta é do tipo: " + this.tipo);
+            System.out.println("Está caneta é do material: " + this.material);
+            System.out.println("Está caneta esta com " + this.carga + "% de carga");
+            System.out.println("Está caneta tem a ponta: " + this.ponta);
+            System.out.println("Está caneta tem a tampa: " + this.tampa);
 
         }
 

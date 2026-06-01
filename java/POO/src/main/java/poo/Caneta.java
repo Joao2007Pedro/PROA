@@ -19,6 +19,8 @@ public class Caneta {
         caneta1.estado();
         caneta1.escrever();
 
+        System.out.println("-----------------------------");
+
         // Criando a segunda caneta
         ClasseCaneta caneta2 = new ClasseCaneta();
 
